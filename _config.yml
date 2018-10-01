@@ -11,8 +11,8 @@ paginate: 15
 paginate_path: "liberxuepage:num"
 gems: [jekyll-paginate]
 links:
-  - name:         首页
-    url:          /
+  - name:         Trang chr
+    url:          https://libertheme.github.io #Link
     external:     false
   - name:         书籍
     url:          /book
