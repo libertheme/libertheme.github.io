@@ -12,7 +12,7 @@ paginate_path: "liberxuepage:num"
 gems: [jekyll-paginate]
 links:
   - name:         Trang chủ
-    url:          https://libertheme.github.io/index.html #Link
+    url:          https://libertheme.github.io #Link
     external:     false
   - name:         Sách
     url:          https://libertheme.github.io/book
