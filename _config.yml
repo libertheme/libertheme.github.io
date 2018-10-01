@@ -17,17 +17,17 @@ links:
   - name:         Sách
     url:          https://libertheme.github.io/book
     external:     false
-  - name:         旅游
-    url:          /road
+  - name:         Du lịch
+    url:          https://libertheme.github.io/road
     external:     false
-  - name:         归档
-    url:          /archives
+  - name:         Lưu trữ
+    url:          https://libertheme.github.io/archives
     external:     false
-  - name:         标签
-    url:          /tags
+  - name:         Nhãn
+    url:          https://libertheme.github.io/tags
     external:     false
-  - name:         关于
-    url:          /about
+  - name:         Giới thiệu
+    url:          https://libertheme.github.io/about
     external:     false
 # ------------ CONFIGURABLE END ------------
 
