@@ -14,8 +14,8 @@ links:
   - name:         Trang chủ
     url:          https://libertheme.github.io/index.html #Link
     external:     false
-  - name:         书籍
-    url:          /book
+  - name:         Sách
+    url:          https://libertheme.github.io/book
     external:     false
   - name:         旅游
     url:          /road
