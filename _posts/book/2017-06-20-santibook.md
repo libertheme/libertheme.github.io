@@ -2,7 +2,7 @@
 layout: blog
 book: true
 background: purple
-background-image: http://ot1cc1u9t.bkt.clouddn.com/17-7-15/43335546.jpg
+background-image: image/three-body.jpg
 title:  "Sau khi đọc ba thân, ba thân II, rừng tối, ba thân III, các tác phẩm hoàn chỉnh của sự sống đời đời của cái chết, một số suy nghĩ và suy nghĩ"
 date:   2017-06-20
 category: Sách
