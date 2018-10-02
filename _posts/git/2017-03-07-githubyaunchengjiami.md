@@ -16,6 +16,7 @@ tags:
  
 ## Mục đích
  
+ 
 Tôi dự định quản lý tất cả các tệp cấu hình máy chủ với git để tôi có thể ghi lại các thay đổi cấu hình. Nhưng một câu hỏi là, làm thế nào để mọi người cộng tác? Thông tin cấu hình máy chủ rất nhạy cảm Nếu kho lưu trữ này bị rò rỉ, toàn bộ kiến ​​trúc máy chủ của công ty bị rò rỉ hoàn toàn. Kho lưu trữ này chỉ có thể được giải mã trên máy tính cục bộ của nhà phát triển Máy chủ lưu trữ kho lưu trữ từ xa không nên biết nội dung của tệp.
 
 Giải pháp là kho lưu trữ git cục bộ được giải mã. Nội dung được mã hóa trong quá trình tải lên, khóa được lưu cục bộ và khóa có thể được chia sẻ với các nhà phát triển khác.
