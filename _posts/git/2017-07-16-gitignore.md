@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-title: "Git忽略规则及.gitignore规则正确姿势"
+title: "Git bỏ qua các quy tắc và  các quy tắcđúng cho .gitignore"
 background-image: http://ot1cc1u9t.bkt.clouddn.com/17-7-16/38390376.jpg
 date:  2017-07-16 23:45:56
 category: git
@@ -9,30 +9,32 @@ tags:
 - github
 - git
 - gitignore
-- Git忽略规则
+- Git bỏ qua các quy tắc
 ---
 
-# 实现需求
-在git中如果想忽略掉某个文件或者文件夹，不想这个文件或者文件夹提交到版本库中，可以使用修改根目录中 .gitignore 文件的方法（如无，则需自己手工建立此文件）。这个文件每一行保存了一个匹配的规则例如：
+# Nhận ra nhu cầu
+Trong git nhập nếu bạn muốn bỏ qua một tập tin hoặc thư mục, bạn không muốn tập tin này hoặc thư mục vào kho, bạn có thể sử dụng các tập tin sửa đổi trong phương pháp thư mục gốc .gitignore (nếu không, bạn cần phải tự tạo ra tập tin này cho mình). Mỗi dòng của tệp này chứa một quy tắc phù hợp như:
 
-# 创建gitignore文件
+# Tạo tệp gitignore
 
 ```
 touch .gitignore
 ```
-## 注释Git忽略规则
-```
-# 此为注释 – 将被 Git 忽略
- 
-*.a       # 忽略所有 .a 结尾的文件
-!lib.a    # 但 lib.a 除外
-/-liberxuesite     # 仅仅忽略项目根目录下的 liberxuesite 文件，不包括 subdir/liberxuesite
-liberxue/    # 忽略 liberxue文件夹/ 目录下的所有文件以及文件夹本身
-doc/*.txt # 会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
-```
-## gitignore忽略规则不生效原因
+## Lưu ý: Git bỏ qua các quy tắc
 
-规则很简单，不做过多解释，但是有时候在项目开发过程中，突然心血来潮想把某些目录或文件加入忽略规则，按照上述方法定义后发现并未生效，原因是.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。那么解决方法就是先把本地缓存删除（改变成未track状态），然后再提交：
+
+```
+# Đây là một bình luận - sẽ bị bỏ qua bởi Git
+ 
+*.a       # Bỏ qua tất cả các tệp kết thúc bằng .a
+!lib.a    # Nhưng ngoại trừ lib.a
+/-liberxuesite     # Chỉ cần bỏ qua tệp liberxuesite trong thư mục gốc của dự án, không bao gồm subdir / liberxuesite
+liberxue/    # Bỏ qua thư mục liberxue/ Tất cả các tệp trong thư mục và chính thư mục đó
+doc/*.txt # Bỏ qua doc / notes.txt nhưng không bỏ qua doc / server / arch.txt
+```
+## Gitignore bỏ qua lý do quy tắc không có hiệu lực
+
+Các quy tắc rất đơn giản, không làm quá nhiều để giải thích, nhưng đôi khi trong quá trình phát triển dự án, một ý thích bất ngờ muốn thư mục hay tập tin nào đó thêm để bỏ qua các quy tắc, quy định như đã nêu ở trên sau khi phát hiện không có hiệu lực vì chỉ bỏ qua .gitignore Các tệp không được theo dõi, nếu một số tệp đã được bao gồm trong quản lý phiên bản, sửa đổi .gitignore không hợp lệ. Sau đó, giải pháp là xóa bộ nhớ cache cục bộ (thay đổi trạng thái không được theo dõi), và sau đó gửi:
 
 ```
 git rm -r --cached .
