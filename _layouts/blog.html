@@ -42,8 +42,8 @@
 	{{ page.title }}</h1>
 		 <div class="post-data">  
 	 <time datetime="{{ page.date | date: '%F %H:%M:%S'}}" itemprop="datePublished">Thời gian phát hành：{{ page.date | date: "%F %H:%M:%S"}}</time>
-     <a href="/tags#{{ page.category }}" title="Truy cập {{ page.category }}" data-hover="Phân loại blog: {{ page.category }}">Phân loại blog: {{ page.category }}</a>
-    <a href="#read"> Thời gian đọc: comments</a> 
+     <a href="/tags#{{ page.category }}" title="Truy cập {{ page.category }}" data-hover="Phân loại blog: {{ page.category }}">Phân loại bài đăng: {{ page.category }}</a>
+    <a href="#read"> Thời gian đọc:  minutes</a> 
 			</div>
             <div class="post-tags">
                 {% unless page.tags == empty %}
@@ -99,7 +99,8 @@
 </p>
 {{ content }}
 		<p class="post-info">
-			Bài viết được tạo bởi <a href="/">LiberTheme</a> ，Áp dụng <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="external nofollow">Creative Commons Attribution 4.0</a> Thỏa thuận cấp phép quốc tế<br>Bài viết trên trang này ngoại trừ bản in lại / nguồn，Bản gốc hoặc được dịch bởi trang web này，Vui lòng đảm bảo ký trước khi in lại <br> Thời gian chỉnh sửa cuối cùng là:{{ page.date | date: "%F %H:%M:%S"}}</p>
+			Bài viết được tạo bởi <a href="/">LiberTheme</a> 
+			Thời gian chỉnh sửa cuối cùng là:{{ page.date | date: "%F %H:%M:%S"}}</p>
 	</div>
 </article>
 
