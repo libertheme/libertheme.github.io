@@ -1,58 +1,58 @@
 ---
 layout: blog
-title: 关于LiberXue
-description: "关于LiberXue博客角落自述"
+title: Giới thiệu
+description: "Giới thiệu về Libertheme"
 data: 2017-08-05 09:19:11
 tags: 
-- LiberXue
-- 简述
-- 关于
+- LiberTheme
+- Giới thiệu tóm tắt
+- Giới thiệu
 - Liber
-- Xue
-- 坐井观天阔
+- Theme
+- Thế giới mới
 redirect_from:
   - /about/
 ---
 
 # Hello World
  
-又换了个博客主题 这次终于看见不那么难受了
+Tôi đã thay đổi chủ đề blog của mình một lần nữa, cuối cùng tôi thấy rằng nó không quá khó chịu.
  
-博客使用Jekyll搭建托管在GitHub目前使用主题后期[已开源](https://github.com/Liberxue/liberxue.github.io)
+Blog sử dụng Jekyll để xây dựng lưu trữ trên GitHub hiện đang sử dụng chủ đề.[đã là nguồn mở](https://github.com/Liberxue/liberxue.github.io)
  
 <iframe src="http://ghbtns.com/github-btn.html?user=liberxue&repo=liberxue.github.io&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
  
 
-博客图片使用七牛云加速
+Hình ảnh sử dụng trong blog
 
-##  LiberXue  曾用名013
+## LiberTheme sử dụng tên 013
  
-### 曾用名013简述
+### Tôi đã sử dụng tên 013
  
  
-之前五年间一直使用013这个网名好多朋友问什么是？
+Trong năm năm qua, tôi đã sử dụng tên 013. Nhiều bạn bè hỏi nó là gì?
 
-013不就是十三吗 装呗
+013 không phải là mười ba?
  
-其实很简单在86版西游记中十三集开始悟空取经上路
+Trên thực tế, rất đơn giản để bắt đầu Goku trong mười ba tập của ấn bản thứ 86 của Hành trình về phương Tây.
  
-还有一个原因2009年9月13日我在北京只剩下6块钱活三个月时间...
+Có một lý do khác: Vào ngày 13 tháng 9 năm 2009, tôi chỉ còn lại 6 đô ở Bắc Kinh trong ba tháng.
  
-### LiberXue简述
+### Tóm tắt về LiberXue
  
-#### Liber注释
+#### Ghi chú của Liber
  
-同我名字谐音 ``Liber`` 英文翻译过来：自由
+Tôi nhất quán với tên là ``Liber`` Trong tiếng anh nghĩa là: Miễn phí
  
-#### Xue注释
+#### Ghi chú về Xue
  
-`Xue` 就是拼音 ...我名字最后一个字(⊙ω⊙)
+`Xue`là bính âm... từ cuối cùng của tên tôi(⊙ω⊙)
 
-## 想做一名全栈开发
+## Muốn trở thành một nhà phát triển fullstack
 
-这是一个梦... 当然是梦肯定要成为架构师
+Đây là giấc mơ... Tất nhiên, ước mơ phải là trở thành kiến trúc sư?
 
-### 使用语言
+### Ngôn ngữ sử dụng
 
 ``c# ``|``lua``| ``c++``|
  
@@ -62,133 +62,128 @@ redirect_from:
   ``perl``|``shell``|
  
 
- 目前主攻``GO``
+ Hiện tại đang tìm hiểu `` GO``
   
-### 个人爱好
+### Sở thích cá nhân
 
- 热衷于``路由器``研究和``网络安全``...
- 
-### 业余时间
+ Đam mê nghiên cứu `` router`` và `` bảo mật mạng``...
+### Thói quen lúc rảnh rỗi
 
-- 非越狱环境下iOS应用逆向研究
-- web安全
+- Nghiên cứu ngược lại ứng dụng iOS trong môi trường không phải Jailbreak
+- Bảo mật web
 - freebsd
-- ros路由器
-- 防火墙
+- Ros router
+- Tường lửa
 
-### 个人习惯
+### Thói quen cá nhân
  
-不喜欢被打扰，也不习惯打扰别人
+Không thích bị quấy rầy, không nên làm phiền người khác
  
-「所以我不用评论」，社交软件基本很少用，如果您对我的blog有疑问，请发送[Email](mailto:liberxue@gmail.com) 联系我。
+"Vì vậy, tôi không phải bình luận", phần mềm xã hội hiếm khi được sử dụng. Nếu bạn có thắc mắc về blog của tôi, xin vui lòng gửi [Email](mailto:liberxue@gmail.com) cho tôi.
  
-这个世界太热闹了，也言语太“自由” 需要`面壁者`也需要`独立思考`和`独立学习生活者`和`独立解决问题者`
+Nhu cầu "đối mặt" cũng đòi hỏi "tư duy độc lập" và "học độc lập về cuộc sống" và "người giải quyết vấn đề độc lập".
  
  
-# 第一篇博客
+# Blog đầu tiên
  
-作为网站的第一篇博客，并没有太多事情要写
+Là blog đầu tiên của trang web, không có nhiều điều để viết
 
  
-## 主要谈三个方面
- 
-### 自己的开发经历
+## Chủ yếu nói về ba khía cạnh
+### Kinh nghiệm phát triển riêng
 
 #### 2010-2014
-曾在X国企电信开发400电话呼叫管理系统
-* 使用技术：
+Đã phát triển 400 hệ thống quản lý cuộc gọi điện thoại trong X State Enterprise Telecom
+* Sử dụng công nghệ：
 - c# 
 - asp.net 
 - visual-studio 
 - winform+seversql
-* 项目经验    
+* Kinh nghiệm dự án    
 
-- 400电话呼叫管理系统,支撑用户5000+并发量 
-- 支持移动端呼叫来电显示
-* 岗位职责
-- 负责公司网站美工前端seo，机房维护
-- 负责系统后台及前端页面开发；
-- 参与项目需求讨论、分析、评估，能根据需求承担项目功能设计开发工作，并按时保质完成* 开发任务；
-- 快速响应产品需求变化，能够进行模块功能技术方案优化；
-- 分析并协调解决开发过程中遇到的各种问题，能够快速响应产品需求变化；
-- 配合leader进行计划排期、项目设计、代码审核等工作。
+- 400 hệ thống quản lý cuộc gọi điện thoại, hỗ trợ đồng thời trên 5000 người dùng
+- Hỗ trợ ID người gọi điện thoại di động
+* Trách nhiệm công việc
+- Chịu trách nhiệm về công nghệ seo web, front-end seo, bảo trì phòng máy tính
+- Chịu trách nhiệm về nền hệ thống và phát triển trang đầu；
+- Tham gia vào các cuộc thảo luận, phân tích và đánh giá các yêu cầu dự án, và thực hiện thiết kế chức năng dự án và phát triển công việc theo yêu cầu, và hoàn thành việc quản lý chất lượng về thời gian ；
+- Đáp ứng nhanh các thay đổi trong yêu cầu sản phẩm và bật tối ưu hóa các giải pháp công nghệ chức năng mô-đun；
+- Phân tích và điều phối các vấn đề khác nhau gặp phải trong quá trình phát triển và có thể phản ứng nhanh chóng với những thay đổi trong nhu cầu sản phẩm；
+-Làm việc với trưởng nhóm về lập kế hoạch, thiết kế dự án, đánh giá mã, v.v.
 
-2014年9月10号离职意淫创业
->创业产品一：净化网络路由器（去视频广告系统和NAS(私有云)路由器整合）。
-使用系统：Freebsd
-使用技术：c++  perl PHP ruby  
-创业目的：DNS双向加速缓存,cc攻击流量分析,   去视频广告系统和NAS(私有云)。
+Ngày 10 tháng 9 năm 2014, rời khỏi công ty để bắt đầu kinh doanh
+>Sản phẩm kinh doanh đầu tiên: Làm sạch bộ định tuyến mạng (với hệ thống quảng cáo video và tích hợp bộ định tuyến NAS (đám mây riêng)).
+Sử dụng hệ thống: Freebsd
+Sử dụng công nghệ: c ++ perl PHP ruby  
+Mục đích kinh doanh: DNS bộ nhớ cache tăng tốc hai chiều, phân tích lưu lượng truy cập tấn công cc, đi tới hệ thống quảng cáo video và NAS (đám mây riêng).
 
-> 创业产品二：使用ros squid 秒开和自己开发的认证Wi-Fi系统 做公共室外Wi-Fi广告认证 wididog openwrt远程控制营销系统一体集成的云端控制系统
-  wifidog/ros微信连wifi/i认证营销系统 是路由器云端控制系统，轻松实现无线登陆手机认证，微信认证，一键上网，广告控制系统，微信连wifi,营销系统一体集成的云端控制系统。
-       云端源码以PHP加MYSQL非常成熟的技术开发，开发完成各基础的功能， 用户可根据自身的运营需求，简单修改PHP页面或程序来实现不同的运营需求。
+> Venture Sản phẩm 2: Sử dụng giây ros mực trên và phát triển hệ thống chứng nhận của riêng mình để làm cho một kết nối Wi-Fi Wi-Fi xác nhận quảng cáo ngoài trời công wididog openWRT hệ thống điều khiển từ xa tích hợp hệ điều hành đám mây tích hợp tiếp thị
+       Mã nguồn đám mây được phát triển với PHP và MYSQL công nghệ rất trưởng thành, và các chức năng của từng nền tảng được phát triển, người dùng có thể dễ dàng sửa đổi trang hoặc chương trình PHP để đạt được các yêu cầu hoạt động khác nhau theo yêu cầu hoạt động của riêng họ.
  
  
-#### 2014-10月-2016年12月份
-创业失败 上班
+#### 10-2014 -> 12-2016
+Kinh doanh thất bại
  
 
-#### 2017-3月-2017年6月份
-北京X智慧教育公司 负责全栈开发
-公司不发工资 ，开发团队解散！
+#### 3-2017 -> 6-2017
+Công ty Giáo dục Thông minh Bắc Kinh X chịu trách nhiệm triển khai toàn bộ dự án
+Công ty không trả tiền lương, nhóm phát triển được giải thể!
 
-喜欢专研计算机软硬件，玩过不少ARM开发版，独立开发过路由器和路由认证系统，喜欢用软件和脚本解决生活中重复性问题。业余曾在乌云和360补天提交过不少漏洞和bug，2013年百度SEO搜索引擎营销学院学习过SEO优化，能够使用photoshop、CorelDRAW、IIIustator、CAD和3DMAX,独立编译开发过webkit浏览器，2017年独立反编译分析"WannaCry2.0"病毒原理。
+Giống như chuyên về phần cứng máy tính và phần mềm, chơi rất nhiều phiên bản phát triển ARM, phát triển độc lập thông qua các bộ định tuyến và hệ thống xác thực định tuyến, muốn giải quyết vấn đề trong cuộc sống lặp lại với phần mềm và các kịch bản. Amateur 360 được trình bày tại các đám mây và Sky đã có nhiều sơ hở và lỗi 2013 Nian Baidu SEO công cụ tìm kiếm tối ưu hóa SEO Marketing Institute nghiên cứu có thể sử dụng photoshop, CorelDRAW, IIIustator, CAD và 3DMax, biên soạn phát triển độc lập trên trình duyệt webkit, 2017 Phân tích biên dịch độc lập của nguyên tắc vi rút "WannaCry2.0".
+
+### Các lĩnh vực công nghệ hiện đang quan tâm
+
+Công nghệ nóng nhất vào lúc này chắc chắn là trí thông minh nhân tạo.
+
+Mô hình cơ bản của trí thông minh nhân tạo là "mạng thần kinh". Nhiều ứng dụng phức tạp (như nhận dạng mẫu, điều khiển tự động) và các mô hình nâng cao (chẳng hạn như học sâu) được dựa trên nó. Học trí tuệ nhân tạo phải bắt đầu với nó.
  
-### 目前感兴趣的技术领域
-
-眼下最热门的技术，绝对是人工智能。
-
-人工智能的底层模型是"神经网络"（neural network）。许多复杂的应用（比如模式识别、自动控制）和高级模型（比如深度学习）都基于它。学习人工智能，一定是从它开始。
+### Ý định ban đầu và quá trình xây dựng blog này
  
-### 搭建这个blog的初衷与过程
+Blog ghi lại cuộc sống của tôi.
+
+Blog được tạo vào tháng 3 năm 2010 và chủ yếu là một nhật ký web cá nhân ghi lại cuộc sống, công việc, cảm xúc và chơi trực tuyến, chia sẻ động lực Internet và hành vi xã hội. Bắt đầu từ ngày 1 tháng 9 năm 2015, chủ đề Jekyll sẽ được sử dụng Chủ đề này hỗ trợ các độ phân giải màn hình khác nhau như iPhone và iPad, thiết kế đáp ứng, nhưng không hỗ trợ trình duyệt IE.
+
+
+
+# Tuyên bố bản quyền
  
-博客记录我的生活。
+Đây "blog" của tất cả các quyền sở hữu trí tuệ, cũng như tất cả các thông tin liên quan đến nội dung, "blog", bao gồm, nhưng không giới hạn: biểu hiện bằng văn bản, và sự kết hợp của chúng, biểu tượng, hình trang trí, hình ảnh, đồ họa, màu sắc, thiết kế giao diện, khung bố trí, dữ liệu liên quan , các chương trình bổ sung, tài liệu in hoặc tài liệu điện tử đều thuộc sở hữu của các blogger và được bảo vệ bởi luật bản quyền và các điều ước quốc tế về bản quyền và các luật và quy định về sở hữu trí tuệ khác.
 
-该博客创建于 2010 年 3 月，主要为个人的网络日志，在线记录生活、工作、情感和游玩的事儿，分享互联网动态和社会百态。2015 年 9 月 1 日起开始使用  Jekyll 主题，该主题支持 iPhone 和 iPad 等不同屏幕分辨率，响应式设计，但不支持 IE 浏览器
-
-
-
-# 权利声明
+## Quyền hạn
+Nghiêm cấm việc sử dụng lưu trữ, in lại và phổ biến thương mại hoặc phi thương mại mà không có sự cho phép bằng văn bản rõ ràng, người dùng phải tuân thủ giới hạn này trừ khi được luật hoặc quy định cho phép rõ ràng.
  
-本“博客”的一切知识产权，以及与"博客"相关的所有信息内容，包括但不限于： 文字表述及其组合、图标、图饰、图像、图表、色彩、界面设计、版面框架、有关数据、附加程序、印刷材料或电子文档等均为博客作者所有， 受著作权法和国际著作权条约以及其他知识产权法律法规的保护。
+*Tôi không muốn được in lại, tôi hy vọng tôi không muốn được tái tạo
+ 
+* Nếu bạn muốn in lại, xin vui lòng ít nhất đọc nó một cách cẩn thận, nó phi thực tế thực tế hoặc thực tế.
+ 
+* Xin đừng in lại những từ gốc. Cá nhân coi thường hành vi này, nội dung trùng lặp của Baidu là vô nghĩa.
+# Dự án phát triển độc lập cá nhân
 
-## 权利限制
- 
-禁止未经明确书面授权的任何商业与非商业用途的存储，转载，传播；除法律、法规明文规定允许上述活动外，用户必须遵守此限制。
- 
-* 不转载也希望不希望被转载，
- 
-* 如果要转载，请至少认真的看完，合不合适实不实用
- 
-* 请不要原封不动一字不差的转载...个人非常鄙视这种行为百度上面这种重复内容毫无意义垃圾够了。
-
-# 个人独立开发项目
-
-ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
+ID|Tên dự án | Ngôn ngữ phát triển | Chức năng Giới thiệu | Framwork | Truy cập trực tuyến|
 |:--------|:-------:|:-------:|:-------:|:-------:|-------:|
-1|Wi-Fidog路由器认证| PHP&mysql|上网报表分析+用户/代理商/总后台|thinkphp|是
-2|ros路由器Api认证开发|PHP&mysql|多vlan+用户/代理商/总后台|thinkphp|是
-3|智能开关餐饮系统|PHP&c#&mysql|winfrom+web微信选座点餐数据交互|无|是
-4|oa即时通讯办公系统|PHP&mysql|workerman／socket／json／APIcloud|无|是
-5|微信云客服|vc++&JavaScript&c#|微信自动回复.红包.语音.自动加好友等|无|已开源
-6|webkit/cef浏览器|cef&webkit&c#|类似腾讯视频客户端自定义flash右键|无|已开源
-7|vcdlocker硬盘锁|vc++&nasm|可以绕过腾讯管家360杀毒加密硬盘|无|已开源
-8|c/s客户端自动更新|c#|c#客户端自动更新程序+服务端生成程序|无|已开源
-9|安装打包程序|c#|自定义安装包，打包程序源代码|无|是
-10|c#交互lua|c#&adb&lua|通达oa打卡支付ar自动抢五福|无|已开源
-11|freebsd路由器|vc perl PHP ruby|dns双向加速缓存 cc流量分析|freebsd|没有
-11|Jekyll themes|html5 css3 moonjs ruby json|Jekyll|无|已开源
+1|Chứng chỉ Wi-Fidog Router| PHP&mysql|Phân thích báo cáo Internet + người dùng/ đại lý/ tổng kho|thinkphp|Có
+2|Ros router Api|PHP&mysql|Đa nguyên vlan + người dùng/ đại lý/ tổng kho|thinkphp|Có
+3|Hệ thống phục vụ chuyển mạch thông minh|PHP&c#&mysql|winfrom+web WeChat tương tác/ lựa chọn dữ liệu bữa ăn|Không|Có
+4|Hệ thống nhắn tin tức thời Oa|PHP&mysql|workerman／socket／json／APIcloud|Không|Có
+5|Dịch vụ khách hàng đám mây WeChat|vc++&JavaScript&c#|WeChat tự động trả lời/ Phong bì đỏ/ Giọng nói/ Tự động thêm bạn|Không| Mã nguồn mở
+6|webkit/trình duyệt cef|cef&webkit&c#|Tương tự như đèn flash tùy chỉnh của khách hàng video Tencent|Không|Mã nguồn mở
+7|Khóa ổ cứng Vcdlocker|vc++&nasm|Có thể bỏ qua ổ cứng mã hóa chống virus Tencent 360|Không|Mã nguồn mở
+8|c/s khách hàng tự động cập nhật|c#|c # khách hàng chương trình cập nhật tự động + chương trình xây dựng máy chủ|Không|Mã nguồn mở
+9|Cài đặt trình đóng gói|c#|Gói cài đặt tùy chỉnh, mã nguồn đóng gói|Không|Có
+10|c# tương tác lua|c#&adb&lua|Tongda oa đấm thẻ thanh toán ar tự động lấy năm phước lành|Không|Mã nguồn mở
+11|Freebsd router| vc perl PHP ruby|Dns tăng tốc hai chiều bộ nhớ cache phân tích lưu lượng cc|freebsd|Không
+11|Jekyll themes|html5 css3 moonjs ruby json|Jekyll|Không| Mã nguồn mở
 
 
 
 
-#### 联系方式
+#### Thông tin liên hệ
 ******
  
-你可以通过以下几种方式联系到我。
+Bạn có thể liên hệ với tôi theo các cách sau.
 
-* [提交Issues](https://github.com/Liberxue/liberxue.github.io/issues)
+* [Gửi các vấn đề](https://github.com/Liberxue/liberxue.github.io/issues)
  
-* [发邮件](mailto:liberxue@gmail.com)
+* [Gửi thư](mailto:liberxue@gmail.com)
  
 * [Twitter](https://twitter.com/liberxue).
