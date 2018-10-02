@@ -7,7 +7,7 @@ facebook_appid:   #liberxue
 google_analytics: UA-126763598-1
 share:            true 
 # 分页
-paginate: 6
+paginate: 20
 paginate_path: "liberxuepage:num"
 gems: [jekyll-paginate]
 links:
@@ -28,7 +28,7 @@ links:
     external:     false
   - name:         Giới thiệu
     url:          /about
-    external:     false
+    external:     true
 # ------------ CONFIGURABLE END ------------
 
 #permalink:        /:categories/:title.html
