@@ -2,7 +2,7 @@
 layout: blog
 istop: true
 title: "Git bỏ qua các quy tắc và  các quy tắcđúng cho .gitignore"
-background-image: http://ot1cc1u9t.bkt.clouddn.com/17-7-16/38390376.jpg
+background-image: image/git.jpg
 date:  2017-07-16 23:45:56
 category: git
 tags:
