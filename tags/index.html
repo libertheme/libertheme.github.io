@@ -5,7 +5,7 @@ description: "Phân loại nhãn"
 <div class="main-content archive-page clearfix">
   {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tags_list = site_tags | split:',' | sort %}
-    <h3 class="post-title" itemprop="name headline">Bài đăng trên blog sau danh mục - Nhấn để tìm thẻ tương ứng</h3>
+    <h3 class="post-title" itemprop="name headline">Bài đăng trên blog theo danh mục - Nhấn để tìm nhãn tương ứng</h3>
 											 <div class="post-data">
 			 						  <div class="post-tags">
   {% for item in (0..site.tags.size)  %}{% unless forloop.last %}
