@@ -1,8 +1,8 @@
 ---
 layout: blog
 istop: true
-title: "GitHub当作私密的版本控制系统远端版本库私有化哈"
-background-image: https://o243f9mnq.qnssl.com/2017/06/116099051.jpg
+title: "GitHub như một hệ thống điều khiển phiên bản riêng tư tư nhân hóa kho lưu trữ từ xa"
+background-image: image/github-pro.jpg
 date:  2017-03-07
 category: git
 tags:
@@ -14,89 +14,87 @@ tags:
 - sshfs
 ---
  
-## 目的
+## Mục đích
  
-我打算把所有服务器的配置文件用git管理起来，这样可以记录配置变更状况。 但是有一个问题是，如何多人协作？服务器配置信息非常敏感，如果这个版本库泄漏，整个公司的服务器架构就彻底泄漏了。 这个版本库只能在开发者本地电脑里面解密，远程托管版本库的服务器不应该知道文件里面的内容。
+Tôi dự định quản lý tất cả các tệp cấu hình máy chủ với git để tôi có thể ghi lại các thay đổi cấu hình. Nhưng một câu hỏi là, làm thế nào để mọi người cộng tác? Thông tin cấu hình máy chủ rất nhạy cảm Nếu kho lưu trữ này bị rò rỉ, toàn bộ kiến ​​trúc máy chủ của công ty bị rò rỉ hoàn toàn. Kho lưu trữ này chỉ có thể được giải mã trên máy tính cục bộ của nhà phát triển Máy chủ lưu trữ kho lưu trữ từ xa không nên biết nội dung của tệp.
 
-那么解决办法就是：本地git版本库是解密的，在上传过程中内容全部加密，密钥保存在本地，同时密钥可以分享给其他开发者。
+Giải pháp là kho lưu trữ git cục bộ được giải mã. Nội dung được mã hóa trong quá trình tải lên, khóa được lưu cục bộ và khóa có thể được chia sẻ với các nhà phát triển khác.
 
-### 考虑了几个解决方案：
+### Xem xét một số giải pháp:
 
-1. ``git-crypt``：可以加密部分文件，原理是加上了加密的fiter和diff， 但是官方说只适合加密部分文件，而不适合全版本库加密。部分文件加密很容易造成信息泄漏，一定要全版本库加密才适合。
+1. ``git-crypt``：Nguyên tắc là để thêm fiter mã hóa và khác biệt, nhưng chính thức nói rằng nó chỉ thích hợp để mã hóa một số tập tin, không phải cho mã hóa thư viện phiên bản đầy đủ. Một phần của mã hóa tập tin là rất dễ dàng để gây ra rò rỉ thông tin, nó phải được phiên bản đầy đủ của mã hóa thư viện là phù hợp.
 
-2. 串联``sshfs``和远程服务器加密文件系统``encfs``：首先用``sshfs``加载远端文件系统，然后用``encfs``创建加密文件系统。 我估计无法解决多人同时``push``情况下的竞争条件，并且encfs有安全漏洞，使用``上push/pull``之前需要加载两层文件系统，不是很方便。
+2. Loạt '' sshfs`` máy chủ từ xa và hệ thống file mã hóa '' encfs``: Thứ nhất, tải hệ thống với các tập tin từ xa '' sshfs``, và sau đó tạo ra một hệ thống tập tin được mã hóa sử dụng ` 'encfs``. Tôi đoán mọi người không thể được giải quyết cùng lúc '' điều kiện cạnh tranh trong tình hình push`` và EncFS lỗ hổng bảo mật, cần phải tải hai tập tin trên hệ thống trước khi sử dụng '' push / pull``, nó không phải là rất thuận tiện.
 
-3. ``git-remote-gcryp``t用``gpg``进行远端加密。 比较符合我预期的模式，但是用``gpg``不是特别方便协作。但是别的方法走不通，只有这个方法可用。
+3. `` git-remote-gcryp``t sử dụng `` gpg`` để mã hóa từ xa. Nó phù hợp với mô hình dự kiến ​​của tôi, nhưng việc sử dụng `` gpg`` không đặc biệt thuận tiện cho việc cộng tác. Nhưng các phương pháp khác không hoạt động, chỉ có phương pháp này.
 
-#### 使用方法
+#### Cách sử dụng
 
 
-######  安装git-remote-gcrypt和gnupg
+######  Cài đặt git-remote-gcrypt và gnupg
 ```
 sudo apt-get install git-remote-gcrypt gnupg
 ```
-###### 创建一个gpg的key，
- 需要设置用户名，邮箱，描述等，不要设置过期时间
+###### Tạo khóa gpg
+Cần đặt tên người dùng, hộp thư, mô tả, v.v., không đặt thời gian hết hạn
 ```
 gpg --gen-key
 ```
-###### 记录一下生成的key的ID，
+###### Ghi lại ID của khóa được tạo
 
-比如2048R/liberxue013里面的liberxue013，2048代表加密轮数，越多越不容易破解
+Ví dụ, liberxue013 vào năm 2048R / liberxue013, 2048 đại diện cho số vòng mã hóa, nó càng không dễ dàng để crack
 ```
 gpg --list-keys
 ```
-###### 生成一个测试版本库
+###### Tạo một kho lưu trữ thử nghiệm
 ```
 mkdir test1 && cd test1
 git init .
 echo "test" > a.txt
 git add . && git ci -m "update"
 ```
-##### 创建一个测试project
+##### Tạo dự án thử nghiệm
 
-在你的github上面创建一个project，比如：https://github.com/liberxue
-
-######  配置远端加密版本库
+Tạo một dự án trên github của bạn, ví dụ: https://github.com/liberxue
+######  Cấu hình kho lưu trữ được mã hóa từ xa
 ```
 git remote add cryptremote gcrypt::git@github.com:liberxue/liberxue.git
 ```
-###### 最好指定用哪个key加密
- 这样可以共享这个key给其他人用
+###### Tốt nhất là chỉ định khóa nào cần mã hóa.
+ Bằng cách này, bạn có thể chia sẻ khóa này để người khác sử dụng.
 ```
 git config remote.cryptremote.gcrypt-participants "liberxue013"
 ```
-###### push到远端
+###### push từ xa
 ```
 git push cryptremote master
 ```
-* 访问远端版本库，看看文件内容，和commit里面的信息，是不是都是加密的？
+* Truy cập kho lưu trữ từ xa, xem nội dung của tệp và thông tin trong cam kết, chúng có được mã hóa không?
 
-## 如何分享给其他人
+## Cách chia sẻ với người khác
 
 
-##### 导出key
+##### Key để chia sẻ
 ```
 gpg --export-secret-key -a "share@share.com" > secretkey.asc
 ```
-- 把secretkey.asc分享给其他人，拷贝的时候记得先压缩加密一下再发送，更安全
+- Chia sẻ secretkey.asc cho người khác Khi sao chép, hãy nhớ nén và mã hóa trước khi gửi.
 
-###### 别人电脑里面导入
+###### Được nhập từ máy tính của người khác
 ```
 gpg --import secretkey.asc
 ```
-###### 下载代码
+###### Tải code xuống
 ```
-git clone gcrypt::git@github.com:liberxue/liberxue.git test2 // test2是git clone 在本地的文
+git clone gcrypt::git@github.com:liberxue/liberxue.git test2 // Test2 là git clone văn bản cục bộ
 件名
 ```
-###### 也要指定一下用什么key加密
+###### Đồng thời chỉ định khóa nào cần mã hóa
+
 ```
 git config remote.cryptremote.gcrypt-participants "liberxue013"
 
 ```
 
-用这种方法，可以用``git``管理一些私密又需要协作的信息（比如服务器配置）， 也可以把github当作私密的版本控制系统来用（commit的消息还是明文的）。
 
-
-
+Bằng cách này, bạn có thể sử dụng `` git`` để quản lý một số thông tin cá nhân và cộng tác (chẳng hạn như cấu hình máy chủ), hoặc bạn có thể sử dụng github như một hệ thống điều khiển phiên bản riêng (thông điệp cam kết hoặc bản rõ)
