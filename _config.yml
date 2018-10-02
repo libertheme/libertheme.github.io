@@ -15,19 +15,19 @@ links:
     url:          https://libertheme.github.io #Link
     external:     false
   - name:         Sách
-    url:          https://libertheme.github.io/book
+    url:          /book
     external:     false
   - name:         Du lịch
-    url:          https://libertheme.github.io/road
+    url:          /road
     external:     false
   - name:         Lưu trữ
-    url:          https://libertheme.github.io/archives
+    url:          /archives
     external:     false
   - name:         Nhãn
-    url:          https://libertheme.github.io/tags
+    url:          /tags
     external:     false
   - name:         Giới thiệu
-    url:          https://libertheme.github.io/about
+    url:          /about
     external:     false
 # ------------ CONFIGURABLE END ------------
 
