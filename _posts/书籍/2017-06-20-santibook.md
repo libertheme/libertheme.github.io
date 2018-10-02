@@ -55,7 +55,7 @@ Liu Cixin thực sự cảm thấy tuyệt vời Thiên Chúa không chỉ là k
 Việc đọc đầu tiên là tò mò
 Lần thứ hai là kinh ngạc
 
-何其有幸。仅需短短几小时，至多几十个小时就能读完一本作家的心血结晶。感受他们的或磅礴思想、或悲欢离合，从文字中汲取养分与力量。
-科普是现实和功利主义的，科幻是感性和理想主义的，科普是知识的灌输，而科幻则是心灵的启迪。无论多少年文明和多高大上民族没有科学的滋养也仅仅只是《乌合之众》
+Thật là may mắn. Chỉ mất vài giờ, và tối đa là hàng chục giờ, bạn có thể đọc được đứa con tinh thần của một nhà văn. Hãy cảm nhận những suy nghĩ hoành tráng của họ, hoặc những niềm vui và nỗi buồn, và thu hút chất dinh dưỡng và sức mạnh từ những lời nói. 58 Khoa học phổ biến là thực tế và chủ nghĩa thực dụng, khoa học viễn tưởng là sự nhạy cảm và chủ nghĩa duy tâm, khoa học là sự thấm nhuần của tri thức, và khoa học viễn tưởng là sự giác ngộ của linh hồn. Không có vấn đề bao nhiêu năm của nền văn minh và làm thế nào cao quốc gia không có dinh dưỡng khoa học, nó chỉ là "Uganda"
 
-最新读刘慈欣大神《2018》刘慈欣《孤独的进化者》 梭罗《瓦尔登湖》《深入理解nginx》 
+
+Bài đọc mới nhất của Liu Cixin "2018" Liu Cixin "Lonely Evolution" Thoreau "Walden Lake" "Hiểu biết sâu sắc về nginx" 
