@@ -3,61 +3,57 @@ layout: blog
 book: true
 background: purple
 background-image: http://ot1cc1u9t.bkt.clouddn.com/17-7-15/43335546.jpg
-title:  "看完三体，三体Ⅱ·黑暗森林，三体Ⅲ·死神永生全集一些所感所想"
+title:  "Sau khi đọc ba thân, ba thân II, rừng tối, ba thân III, các tác phẩm hoàn chỉnh của sự sống đời đời của cái chết, một số suy nghĩ và suy nghĩ"
 date:   2017-06-20
-category: 书籍
+category: Sách
 tags:
-- 三体
-- 黑暗森林
-- 死神
-- 刘慈欣
-- 面壁者
-- 智子
+- Ba cơ thể 
+- rừng tối
+- Cái chết
+- Liu Cixin
+- Gương mặt  
+- Tomoko
 ---
  
   
-#### 三体看完了，有些意犹未尽 
+#### Sau khi quan sát ba cơ thể, một số trong chúng vẫn chưa hoàn thành.
  
-  特别是在这么一个雨夜，好像和小雨一样，思绪万千，缠缠绵绵。
+  Đặc biệt là vào một đêm mưa như vậy, nó có vẻ như một cơn mưa nhỏ, và những suy nghĩ rối tung và rối tung.
 
 
-三体这部小说，宏观讲到整个宇宙，微观谈到质子夸克，中及人性。在宇宙的尺度上，人类的历史微不可查，人类文明的发展也微乎其微，人类何去何从？
+Bộ ba cuốn tiểu thuyết này, vĩ mô nói về toàn bộ vũ trụ, nói về kính hiển vi proton, trung lập và nhân loại. Trên quy mô vũ trụ, lịch sử loài người không đáng kể, và sự phát triển của nền văn minh nhân loại cũng rất nhỏ.
  
- 
-我一次次的被罗辑不被人所理解独自承担起拯救人类重任的那份执着所感伤，一次次的被“前进！前进！前进！”所感动，一次次的被云天明至死不渝的纯爱所感怀。人类是很渺小，有如蝼蚁，在星辰的大海中人类文明连一艘小舟都算不上，可是正因为对生命不屈不挠的顽强，那种为了生存去努力的精神，又让人类那么伟大。人性中也存在许多和生存斗争不太统一的观念，比如贯穿第三部主线的程心的心理描写。
+Tôi cảm động bởi sự kiên trì của sự cứu vớt nhân loại, và tôi cảm động bởi "Tiến lên! Tiến lên! Đi về phía trước!", Và tôi đã bị Yun Tianming sờ mó liên tục. Cảm giác của tình yêu thuần khiết. Con người rất nhỏ, giống như kiến, Trong biển của các vì sao, nền văn minh của con người thậm chí không thể đếm trên một chiếc thuyền nhỏ, tuy nhiên, vì sự kiên trì bất khuất của cuộc sống, tinh thần làm việc chăm chỉ để tồn tại làm cho con người trở nên vĩ đại. Ngoài ra còn có nhiều khái niệm trong bản chất con người không đồng nhất với cuộc đấu tranh cho sự sống còn, chẳng hạn như mô tả tâm lý của Cheng Xin, người chạy qua dòng chính thứ ba.
 
 
  
-一开始，在千夫所指之下，我也对程心心存憎恶和愤懑，但看到最后一刻，突然我释然了，或许人性中就是因为存在这种犹豫，这种矛盾，这种柔软，才让人类的世界更加真实更加温暖吧。三体的最后，人类世界留下的是一条小鱼，一汪水草，还有几块青青草地，这是地球最后的一些样貌。顺着程心三人乘着小船飞向坍缩中的宇宙，或许这就是宇宙生命的结束了吧。又或者不是。让我眼前浮现出第一部终结者电影的最后，那车灯下不断后退的黄色隔离带，好似已然结束，又似永无休止。
+Lúc đầu, dưới sự lên án, và tôi cảm thấy ghét và giận dữ trên đường trung tâm, nhưng nhìn thấy những giây phút cuối cùng, tôi đột nhiên nhẹ nhõm, có lẽ vì bản chất con người là sự tồn tại do dự này, cuộc xung đột này, phần mềm này, chỉ cần cho Thế giới con người thực tế hơn và ấm hơn. Ba thân cuối cùng, rời khỏi thế giới con người là một cá nhỏ, một vũng nước của các nhà máy nước, cũng như một vài mẩu cỏ xanh, đây là sự xuất hiện cuối cùng của một số của Trái Đất. Cheng đi thuyền dọc theo con ruồi sụp đổ ba trung tâm của vũ trụ, và có lẽ đây là kết thúc của cuộc sống trong vũ trụ, phải. Hay không. Hãy để đôi mắt của tôi xuất ra khỏi cuối cùng này, mà sáng bộ phim Terminator đầu tiên liên tục rút xuống băng cách nhiệt màu vàng, như thể đi đến một kết thúc, nhưng cũng dường như vô tận.
 
 
- 也许亿万年之后，还有三体文明和地球文明的遗留文明被发现。现在回过头来看这本书，像是一幅无限展开的画卷，充满惊奇，感叹和悲哀。
+ Có lẽ hàng trăm triệu năm sau, có ba nền văn minh và nền văn minh di sản của nền văn minh trái đất. Nhìn lại cuốn sách này ngay bây giờ, như một bức tranh vô cùng đang diễn ra, đầy bất ngờ, thở dài và buồn phiền.
  
   
-  我是画外的人，却因画中人而感动流泪，我还是最喜欢开头，喜欢叶文洁面对人性的挣扎，喜欢杨冬的过早看清，喜欢丁仪最后的淡定从容，喜欢维德眼中的坚定和狠辣，喜欢罗辑充满神奇的一生，喜欢AA与天明幸福的生活，喜欢褚岩舰长的果断……可我还是不能原谅程心。
+  Tôi là một người đàn ông bên ngoài bức tranh, bởi vì sitter và rơi nước mắt, tôi vẫn như đầu, giống như Ye Wenjie mặt đấu tranh nhân loại, như Yang Dong của quá sớm để nhìn thấy, giống như cuối cùng của bình tĩnh và yên tĩnh Ding Yi, như Victoria Đức con mắt của công ty và Henla, giống như cuộc sống Luo Ji đầy ma thuật, tình yêu và cuộc sống AA buổi bình minh của hạnh phúc, giống như Chu Yan đội trưởng của quyết định ...... nhưng tôi vẫn không thể tha thứ cho Cheng tim.
 
-#### 三体最好的情话：
+#### Câu chuyện tình yêu hay nhất của ba cơ quan: 
  
 
->地球之外我们的星星
-时间之外我们的宇宙
-这个世界上最好的情话和表白莫过于此吧……
+>Ngôi sao của chúng ta bên ngoài trái đất 42 Thời gian vượt quá vũ trụ của chúng ta 43 Câu chuyện tình yêu và lời thú nhận tốt nhất trên thế giới là ...
 
 
-给时光以生命，而不是给生命以时光
+Dành thời gian cho cuộc sống, không phải với cuộc sống
 
 
-#### 主要登场人物
+#### Chính ra mắt
  
 
-叶文洁； 汪淼； 	史强； 	常伟思 ；	杨冬	丁仪	；伊文斯； 罗辑； 	章北海；	弗里德里克·泰勒	；曼努尔·雷迪亚兹；	比尔·希恩斯；	庄颜；	东方延绪；
-；云天明；	程心；	米哈伊尔·瓦季姆；	托马斯·维德；	艾AA；	智子；	关一帆
+Ye Wenjie, Wang Wei, Shi Qiang, Chang Weisi, Yang Dongding, Yi Wensi, Luo Ji, Zhang Beihai, Friedrich Taylor, Manuel Rediaz, Bill Shearns, Zhuang Yan; Xu Yan 51 Yun Tianming, Cheng Xin, Mikhail Wadim, Thomas Weed, AA AA, Zhizi, Guan Yifan
 
-真心感觉刘慈欣大神不仅是工科生：犯罪心理学  心理学 社会学 社会工程学 都渗透在一章一节一言一语中（刻意用一章一节一言一语是因为当代大部分小说会部分章节和内容刻意去抄相关专业知识硬生生的塞进去）
+Liu Cixin thực sự cảm thấy tuyệt vời Thiên Chúa không chỉ là kỹ thuật sinh viên: tội phạm tâm lý học Tâm lý học Xã hội học kỹ thuật xã hội thâm nhập đang ở trong một chương một lời nói trong (cố tình sử dụng một chương một lời nói một phần là do hầu hết các tiểu thuyết đương đại Các chương và nội dung cố tình sao chép kiến ​​thức chuyên môn có liên quan vào nội dung khó làm việc)
 ...
 
-第一次读是好奇
-第二次是敬畏
+Việc đọc đầu tiên là tò mò
+Lần thứ hai là kinh ngạc
 
 何其有幸。仅需短短几小时，至多几十个小时就能读完一本作家的心血结晶。感受他们的或磅礴思想、或悲欢离合，从文字中汲取养分与力量。
 科普是现实和功利主义的，科幻是感性和理想主义的，科普是知识的灌输，而科幻则是心灵的启迪。无论多少年文明和多高大上民族没有科学的滋养也仅仅只是《乌合之众》
