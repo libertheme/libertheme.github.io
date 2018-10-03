@@ -4,7 +4,7 @@ istop: true
 title: "GitHub như một hệ thống điều khiển phiên bản riêng tư tư nhân hóa kho lưu trữ từ xa"
 background-image: image/github-pro.jpg
 date:  2017-03-07
-category: git
+category: Git
 tags:
 - github
 - git-crypt
