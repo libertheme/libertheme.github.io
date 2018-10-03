@@ -4,7 +4,7 @@ istop: true
 title: "Git bỏ qua các quy tắc và  các quy tắcđúng cho .gitignore"
 background-image: image/git.jpg
 date:  2017-07-16 23:45:56
-category: git
+category: Git
 tags:
 - github
 - git
